@@ -1,0 +1,48 @@
+// .name-role{
+//     border-style: dotted;
+//     border-color: red;
+// }
+
+
+.box{
+    // align-items: center;
+    // justify-content: center;
+    // align-self: center;
+    padding-right: 40%;
+    padding-left: 40%;
+     margin-top: 10px;
+     display: flex;
+}
+
+.counter{
+display: flex;
+
+}
+
+.counter-section{
+   
+    width: 60px;
+    display: block;
+    // text-align: center;
+
+    border-style:groove;
+    background-color: aqua;
+    margin-bottom: 20px;
+    // justify-content: center;
+}
+
+
+h2{
+    //  padding: 5px;
+     color: burlywood;
+}
+
+button{
+    // margin-left: 2px;
+    // margin-right: 2px;
+
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 7px;
+}

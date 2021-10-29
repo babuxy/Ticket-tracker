@@ -1,0 +1,22 @@
+.box {
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-section {
+  width: 60px;
+  display: block;
+  border-style: solid;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+}

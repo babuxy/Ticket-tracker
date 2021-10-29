@@ -1,0 +1,66 @@
+.App{
+    width: 90%;
+    border: solid black 2px;
+    align-content: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.role{
+
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    // gap: .5in;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    // border-style: groove;
+    border-color: solid black 2px;
+    // width: 90%;
+    // border-style: dotted;
+    //     border-color: magenta;
+        overflow-x: hidden;
+  text-align: center;
+    vertical-align: bottom;
+}
+
+
+.table > div {
+margin: 10px;
+border-style: groove;
+border-color: solid black ;
+  background: powderblue;
+//   padding: 5px;
+
+
+}
+
+.table > div:nth-child(3n+2) {
+  margin-top: 10px;
+    background: lemonchiffon;
+//   align-content: center;
+  border-style: groove;
+  border-color: solid black;
+  // width: 90%;
+}
+
+.table > div:nth-child(3n+3) {
+    margin-top: 10px;
+  background: palegreen;
+  align-content: center;
+  border-style: groove;
+  border-color: solid black;
+  // width: 90%;
+}
+
+
+    
